@@ -1,1 +1,2 @@
 # etch-a-sketch
+After updating the UI of my last project making more use of the DOM I am more confident on using javascript to manipulate the DOM and i looking forward to this new project to solidify my understanding of using javascript to manipulate the DOM. Should be exciting

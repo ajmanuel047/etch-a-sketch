@@ -31,25 +31,17 @@ userOption.addEventListener('click', function(){
   })
 
 function getRandomBoardColor(){
-   let randomBoardColor = ''
-   for(let i = 0; i < arr.length; i++){
    let random =  Math.floor(Math.random() * arr.length)
-       randomBoardColor = arr[random]
-}            
-   return randomBoardColor
+   return arr[random]
+
 }  
 
  getRandomBoardColor(arr)
 
  function getRandomColorNames(data){
-    let randomData = ''
-    for(let i = 0; i < data.length; i++){
-        let random = Math.floor(Math.random() * data.length)
-        
-            randomData =  data[random]             
-    }
+    let random = Math.floor(Math.random() * data.length)
+    return data[random]             
     
-     return randomData
  }
  getRandomColorNames(colorNames)
 

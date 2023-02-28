@@ -120,28 +120,3 @@ for(let j = 0; j < input; j++){
 }
 resetBoard()
 
-/*
-where i had challenges
-1. Creating the divs was very challenging. Doing this with CSS would have been easy
-   but as instructed i had to do this with javascript
-2. Getting the user's input to make the div's creation dynamic was another challenge 
-   i faced. I had to ask questions to overcome this challenge because i felt i was missing 
-   something as the userInput wasn't updating the input variable outside the 
-   eventlistener for the userOption button.
-
-   These are the two areas i had the most challenge
-
-How I overcame these challenges
-1. I was able to create the divs by using a for loop twice meaning a loop within a loop.
-   I came up with the idea because in my head i thought to myself that it a container
-   could using flex-direction at the same time then this would be easy but that wasn't 
-   possible. The only way that would be possible was to use flex-direction on the direct
-   descendants of the parent element and then use it again on the descendants. 
-2. What i was made to understand was that it was updating all along but due to how i console
-   logged the values i wasn't getting the right output.
-   
-   I see a lot of things i can still do here to make it 
-   more personalized but a programmer should always know
-   when to stop adding more functionality. 
-   
-   */

@@ -36,16 +36,12 @@ function getRandomBoardColor(){
 
 }  
 
- getRandomBoardColor(arr)
-
  function getRandomColorNames(data){
     let random = Math.floor(Math.random() * data.length)
     return data[random]             
     
  }
  getRandomColorNames(colorNames)
-
-const box = document.querySelector('.box')
 
 function resetBoard(){
 container.innerHTML = ''
@@ -86,7 +82,8 @@ for(let j = 0; j < input; j++){
  
     multipleColor.addEventListener('click', function(){
         div2.addEventListener('mouseover', onMouseOverMultipleColor)
-     
+        div2.removeEventListener('mouseover', onMouseOverSingleColor)
+
     })
 
     board.addEventListener('click', function(){
@@ -95,6 +92,8 @@ for(let j = 0; j < input; j++){
 
     singleColor.addEventListener('click', function(){
         div2.addEventListener('mouseover', onMouseOverSingleColor)
+        div2.removeEventListener('mouseover', onMouseOverMultipleColor)
+
     })
 
     

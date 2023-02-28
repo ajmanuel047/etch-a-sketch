@@ -3,9 +3,34 @@
     margin: 0;
     box-sizing: border-box;
 }
-.btn {
+/* .btn {
     width: 100px;
     height: 20px;
+} */
+
+body {
+    background-color: snow;
+}
+
+.btn_container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 26px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.btns {
+    width: 200px;
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /* .container {
     width: 16px;
